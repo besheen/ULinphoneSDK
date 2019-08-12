@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ULinphoneSDK_Example' do
+  pod 'ULinphoneSDK', :path => '../'
+
+  target 'ULinphoneSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
